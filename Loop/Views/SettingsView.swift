@@ -369,8 +369,8 @@ extension SettingsView {
             LargeButton(action: { sheet = .favoriteFoods },
                         includeArrow: true,
                         imageView: Image("Favorite Foods Icon").renderingMode(.template).foregroundColor(carbTintColor),
-                        label: "Favorite Foods",
-                        descriptiveText: "Simplify Carb Entry")
+                        label: "Favorittmat",
+                        descriptiveText: "Forenkle karboinntasting")
         }
     }
     
