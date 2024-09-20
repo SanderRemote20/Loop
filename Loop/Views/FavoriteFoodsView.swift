@@ -61,7 +61,7 @@ struct FavoriteFoodsView: View {
                     dismissButton
                 }
             }
-            .navigationBarTitle("Favorite Foods", displayMode: .large)
+            .navigationBarTitle("Favorittmat", displayMode: .large)
         }
         .sheet(isPresented: $viewModel.isAddViewActive) {
             AddEditFavoriteFoodView(onSave: viewModel.onFoodSave(_:))
