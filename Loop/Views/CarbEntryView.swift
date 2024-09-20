@@ -267,7 +267,7 @@ extension CarbEntryView {
     
     private func favoritedFoodTextFromIndex(_ index: Int) -> String {
         if index == -1 {
-            return "None"
+            return "Ingen"
         }
         else {
             let food = viewModel.favoriteFoods[index]
