@@ -226,6 +226,9 @@
 /* Settings app profile section */
 "App Profile" = "App-profil";
 
+/* No comment provided by engineer. */
+"Apple" = "Eple";
+
 /* Action sheet confirmation message for pump history deletion */
 "Are you sure you want to delete all history entries?" = "Er du sikker på at du vil slette alle historieoppføringer?";
 
@@ -797,6 +800,9 @@
 
 /* Override error description: negative duration error. */
 "Negative duration not allowed" = "Negativ varighet ikke tillatt";
+
+/* No comment provided by engineer. */
+"New Favorite Food" = "Ny favorittmat";
 
 /* The title of the Nightscout service */
 "Nightscout" = "Nightscout";
