@@ -32,13 +32,13 @@ public struct FavoriteFoodDetailView: View {
     public var body: some View {
         if let food {
             List {
-                Section("Information") {
+                Section("Informasjon") {
                     VStack(spacing: 16) {
                         let rows: [(field: String, value: String)] = [
-                            ("Name", food.name),
-                            ("Carb Quantity", food.carbsString(formatter: carbFormatter)),
-                            ("Food Type", food.foodType),
-                            ("Absorption Time", food.absorptionTimeString(formatter: absorptionTimeFormatter))
+                            ("Navn", food.name),
+                            ("Mengde karbo", food.carbsString(formatter: carbFormatter)),
+                            ("Type mat", food.foodType),
+                            ("Absorpsjonstid", food.absorptionTimeString(formatter: absorptionTimeFormatter))
                         ]
                         ForEach(rows, id: \.field) { row in
                             HStack {
@@ -54,16 +54,16 @@ public struct FavoriteFoodDetailView: View {
                 .listRowInsets(EdgeInsets(top: 8, leading: 12, bottom: 8, trailing: 12))
                 
                 Button(role: .destructive, action: { isConfirmingDelete.toggle() }) {
-                    Text("Delete Food")
+                    Text("Slett mat")
                         .frame(maxWidth: .infinity, alignment: .center) // Align text in center
                 }
             }
             .alert(isPresented: $isConfirmingDelete) {
                 Alert(
-                    title: Text("Delete “\(food.name)”?"),
-                    message: Text("Are you sure you want to delete this food?"),
+                    title: Text("Slett “\(food.name)”?"),
+                    message: Text("Er du sikker på at du vil slette denne maten?"),
                     primaryButton: .cancel(),
-                    secondaryButton: .destructive(Text("Delete"), action: { onFoodDelete(food) })
+                    secondaryButton: .destructive(Text("Slett"), action: { onFoodDelete(food) })
                 )
             }
             .insetGroupedListStyle()
