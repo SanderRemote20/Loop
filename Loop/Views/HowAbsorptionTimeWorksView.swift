@@ -18,7 +18,7 @@ struct HowAbsorptionTimeWorksView: View {
                     Text("Choose a longer absorption time for larger meals, or those containing fats and proteins. This is only guidance to the algorithm and need not be exact.", comment: "Carb entry section footer text explaining absorption time")
                 }
             }
-            .navigationTitle("Absorption Time")
+            .navigationTitle("Absorpsjonstid")
             .toolbar {
                 dismissButton
             }
