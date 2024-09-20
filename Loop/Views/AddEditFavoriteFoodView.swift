@@ -93,15 +93,15 @@ struct AddEditFavoriteFoodView: View {
             let foodTypeFocused: Binding<Bool> = Binding(get: { expandedRow == .foodType }, set: { expandedRow = $0 ? .foodType : nil })
             let absorptionTimeFocused: Binding<Bool> = Binding(get: { expandedRow == .absorptionTime }, set: { expandedRow = $0 ? .absorptionTime : nil })
             
-            TextFieldRow(text: $viewModel.name, isFocused: nameFocused, title: "Name", placeholder: "Apple")
+            TextFieldRow(text: $viewModel.name, isFocused: nameFocused, title: "Navn", placeholder: "Eple")
             
             CardSectionDivider()
 
-            CarbQuantityRow(quantity: $viewModel.carbsQuantity, isFocused: carbQuantityFocused, title: "Carb Quantity", preferredCarbUnit: viewModel.preferredCarbUnit)
+            CarbQuantityRow(quantity: $viewModel.carbsQuantity, isFocused: carbQuantityFocused, title: "Mengde karbo", preferredCarbUnit: viewModel.preferredCarbUnit)
             
             CardSectionDivider()
             
-            EmojiRow(text: $viewModel.foodType, isFocused: foodTypeFocused, emojiType: .food, title: "Food Type")
+            EmojiRow(text: $viewModel.foodType, isFocused: foodTypeFocused, emojiType: .food, title: "Type mat")
             
             CardSectionDivider()
 
