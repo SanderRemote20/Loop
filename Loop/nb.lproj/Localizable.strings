@@ -35,7 +35,7 @@
 "%@ remaining" = "%@ gjenstår";
 
 /* The subtitle format describing total insulin. (1: localized insulin total) */
-"%@ U Total" = "%@ E Totalt";
+"%@ U Total" = "%@ E totalt";
 
 /* Appends a full-stop to a statement */
 "%@." = "%@ .";
@@ -147,7 +147,7 @@
 "Active Insulin: %@" = "Aktivt insulin: %@";
 
 /* No comment provided by engineer. */
-"Add a new favorite food" = "Legg til en ny favorittmat";
+"Add a new favorite food" = "Legg til ny favorittmat";
 
 /* Title of the user activity for adding carbs */
 "Add Carb Entry" = "Legg til karbohydrater";
@@ -191,7 +191,7 @@
 "All Alerts Muted" = "Alle varsler er dempet";
 
 /* Label for when mute alert will end */
-"All alerts muted until" = "Alle varsler er dempet inntil";
+"All alerts muted until" = "Alle varsler er dempet til";
 
 /* No comment provided by engineer. */
 "All Favorites" = "Alle favoritter";
@@ -254,10 +254,10 @@
 "at %@" = "kl %@";
 
 /* The message displayed during a device authentication prompt for bolus specification */
-"Authenticate to Bolus %@ Units" = "Autentiserer for å gi %@ Enheter i Bolus";
+"Authenticate to Bolus %@ Units" = "Autentiserer for å gi %@ enheter";
 
 /* The message displayed during a device authentication prompt to log an insulin dose */
-"Authenticate to log %@ Units" = "Autentiser for å logge %@ Enheter";
+"Authenticate to log %@ Units" = "Autentiser for å logge %@ enheter";
 
 /* Details for configuration error when basal rate schedule is missing */
 "Basal Rate Schedule" = "Tidsplan for basaldoser";
@@ -286,7 +286,7 @@
 "Bolus" = "Bolus";
 
 /* The notification title for a bolus issue */
-"Bolus Issue" = "Bolus feil";
+"Bolus Issue" = "Bolusproblem";
 
 /* Alert title for an updated bolus recommendation */
 "Bolus Recommendation Updated" = "Bolus anbefaling er oppdatert";
@@ -310,7 +310,7 @@
 "Canceling Bolus" = "Avbryter bolus";
 
 /* Details for missing data error when carb effects are missing */
-"Carb effects" = "Karb effekter";
+"Carb effects" = "Karboeffekter";
 
 /* Label for carb entry row on bolus screen */
 "Carb Entry" = "Legg til karbohydrater";
@@ -320,7 +320,7 @@
 
 /* The title of the carb ratios schedule screen
    The title text for the carb ratio schedule */
-"Carb Ratios" = "Karb forhold";
+"Carb Ratios" = "Karboforhold";
 
 /* The title of the view controller to create a new carb entry */
 "carb-entry-title-add" = "Legg til karbohydrater";
@@ -445,7 +445,7 @@
 "Delete “%@”?" = "Slette \"%@\"?";
 
 /* The title of the button to remove the credentials for a service */
-"Delete Account" = "Slett Konto";
+"Delete Account" = "Slett konto";
 
 /* Button title to delete all objects */
 "Delete All" = "Slett alle";
@@ -691,7 +691,7 @@
 "Invalid glucose reading with a timestamp that is %1$@ in the future" = "Ugyldig blodsukkermåling med et tidsstempel som er %1$@ i fremtiden";
 
 /* The title text for the issue report cell */
-"Issue Report" = "Problem Rapport";
+"Issue Report" = "Problemrapport";
 
 /* The notification description for a meal that was possibly not logged in Loop. */
 "It looks like you may not have logged a meal you ate. Tap to log it now." = "Det ser ut til at du kanskje ikke har logget et måltid du har spist. Trykk for å logge den nå.";
