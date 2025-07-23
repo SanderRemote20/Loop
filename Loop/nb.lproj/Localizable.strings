@@ -697,7 +697,7 @@
 "It looks like you may not have logged a meal you ate. Tap to log it now." = "Det ser ut til at du kanskje ikke har logget et måltid du har spist. Trykk for å logge den nå.";
 
 /* Title of the warning shown when a large meal was entered */
-"Large Meal Entered" = "Angitt Stort Måltid";
+"Large Meal Entered" = "Angitt stort måltid";
 
 /* Glucose HUD accessibility hint */
 "Launches CGM app" = "Laster inn CGM-appen";
